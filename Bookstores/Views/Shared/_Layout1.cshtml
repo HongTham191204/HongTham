@@ -1,0 +1,419 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/Content/Mycss/Layout1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/bell?f=classic&s=regular" />
+    <link href=" https://fontawesome.com/icons/user?f=classic&s=light" />
+</head>
+@*Phần đầu*@
+<div>
+    <div id="div-adv">
+        <div class="fhs-header-top-banner" style="background-color:#E89AC2">
+            <div class="top-banner-block" style="margin-top:0">
+                <img src="https://cdn0.fahasa.com/media/wysiwyg/Thang-10-2023/FahasaSaleT3_W1_T1023_Banner_Header_1263x60.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+    <div id="div-top" style="margin-top:0;">
+        <div class="fhs_mouse_point" onclick="location.href = '/';" title="FAHASA.COM">
+            <img src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/fahasa-logo.png" alt="" style="width:220px; vertical-align: middle;">
+        </div>
+
+        <div class="fm-menu">
+            <div class="fm-tk">
+                <img src="~/Content/images/apps.png" class="fm-menu-img" />
+            </div>
+            <span class="icon_seemore_gray"></span>
+        </div>
+        <div class="fm-menu">
+            <div class="fm-tk">
+                <input type="text" id="text" placeholder="Tìm sản phẩm mong muốn...." style="line-height:20px; padding:5px 15px; border-radius:15px; width:500px" />
+                <input type="button" id="Find" value="Tìm kiếm" style="line-height:-20px; padding:5px 15px; border-radius:15px; width:100px; background-color:red;" />
+            </div>
+        </div>
+        <div class="fm-menu">
+            <a href="About">
+
+                <img src="~/Content/images/bell.png" class="fm-menu-img" />
+                Thông báo
+            </a>
+            @*<li class="fm-tk">
+                <img src="~/Content/Img/chuong.png" class="fm-menu-img" />
+                <p>Thông báo</p>
+            </li>*@
+
+        </div>
+        <div class="fm-menu">
+            <div class="fm-tk">
+                <img src="~/Content/images/gio hang.png" class="fm-menu-img" />
+                <p>Giỏ hàng</p>
+            </div>
+        </div>
+        <div class="fm-menu">
+            <a href="accout">
+                <img src="~/Content/images/user.png" class="fm-menu-img" />Tài khoản
+            </a>
+            @*<li class="fm-tk">
+                <img src="~/Content/Img/user.png" class="fm-menu-img" />
+                <p>Tài khoản</p>
+            </li>*@
+        </div>
+        <div class="fhs_top_languages no_cover fhs_dropdown_click fhs_mouse_point">
+            <div class="fhs_top_languages_button fhs_center_center">
+                <span class="icon_store_english"></span>
+                <span class="icon_seemore_gray" style="margin-left:4px;"></span>
+            </div>
+            <div class="fhs_top_languages_dropdown fhs_dropdown">
+                <div lang="default" class="fhs_center_left fhs_mouse_point fhs_nowrap_one lang-flag-img-target">
+                    <span class="icon_store_default" style="width: 36px; margin-right: 8px;" lang="default"></span>
+                    <span lang="default" style="font-weight: bold;">VN</span>
+                </div>
+                <div lang="english" class="fhs_center_left fhs_mouse_point fhs_nowrap_one active">
+                    <span class="icon_store_english" style="width: 36px; margin-right: 8px;" lang="english"></span>
+                    <span lang="english" style="font-weight: bold;">EN</span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+@*detail*@
+<div class="top" style="display:flex;">
+    <div class="top-left" style="display:flex;">
+        <div class="top-left-left">
+            <ul>
+                <li>
+                    <img src="~/Content/img/" />
+                </li>
+                <li>
+                    <img src="~/Content/img/lpth2.jpg" />
+                </li>
+                <li>
+                    <img src="~/Content/img/lpth3.jpg" />
+                </li>
+                <li>
+                    <img src="~/Content/img/lpth4.jpg" />
+                </li>
+
+            </ul>
+        </div>
+        <div class="top-left-right">
+            <img src="~/Content/img/lieuphamtuhuan.jpg" />
+        </div>
+    </div>
+    <div class="top-right">
+        <div class="tensach">
+            <h2>Liễu Phàm Tứ Huấn - Tích Tập Phúc Đức, Cải Tạo Vận Mênh (Tái Bản 2022)</h2>
+        </div>
+        <div class="product-view-sa">
+                <div class="product-view-sa-one ">
+                    <div class="product-view-sa-supplier">
+                        <p>Nhà cung cấp : Thái Hà</p>
+
+                    </div>
+                    <div class="product-view-sa-supplier">
+                        <p>Nhà xuất bản:NXB Lao Động </p>
+
+                    </div>
+
+                </div>
+                <div class="product-view-sa-two">
+                    <div class="product-view-sa-author">
+                        <p>Tác giả: Liễu Phàm</p>
+
+                    </div>
+                    <div class="product-view-sa-supplier">
+                        <p>Hình thức bìa: Bìa mềm</p>
+                    </div>
+                </div>
+        </div>
+        <div class="rating">
+            <input value="5" name="rate" id="star5" type="radio">
+            <label title="text" for="star5"></label>
+            <input value="4" name="rate" id="star4" type="radio">
+            <label title="text" for="star4"></label>
+            <input value="3" name="rate" id="star3" type="radio" checked="">
+            <label title="text" for="star3"></label>
+            <input value="2" name="rate" id="star2" type="radio">
+            <label title="text" for="star2"></label>
+            <input value="1" name="rate" id="star1" type="radio">
+            <label title="text" for="star1"></label>
+        </div>
+            <div class="price">
+                <p>50.150 đ</p>
+            </div>
+            <div class="thong-tin">
+                <div class="d-r-e">
+                   
+                        <p>Thời gian giao hàng</p>
+                   
+                        <p> Chính sách đổi trả </p>
+                  
+                </div>
+                <div class="diliver-time">
+                    
+                        <p>Giao hàng đến</p>
+                  
+                  
+                        <p>
+                            Đổi trả sản phẩm trong 30 ngày
+                        </p>
+                   
+                </div>
+
+            </div>
+       
+    </div>
+</div>
+<div class="center">
+    <h1>Sản Phẩm Cùng Mua</h1>
+    <div class="row">
+        <div class="box-pro">
+            <div class="box-img">
+                <img src="~/Content/Img/AmAnhTuKiepTruoc.jpg" class="fm-img-pro" />
+            </div>
+            <div class="box-des">
+                <p>Ám Ảnh Từ Kiếp Trước </p>
+                <div class="div-gia-item">
+                    <p class="gia-item">
+                        <sapn class="gia-moi">66.000đ</sapn>
+                        <span class="gia-giam">40%</span>
+                    </p>
+                    <P class="gia-item-cu">
+                        <span class="gia-cu">110.000đ</span>
+                    </P>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box-pro">
+            <div class="box-img">
+                <img src="~/Content/Img/AnNhienGiuaNhungThangTram.jpg" class="fm-img-pro" />
+            </div>
+            <div class="box-des">
+                <p>An Nhiên Giữa Những Thăng Trầm </p>
+                <div class="div-gia-item">
+                    <p class="gia-item">
+                        <sapn class="gia-moi">66.000đ</sapn>
+                        <span class="gia-giam">40%</span>
+                    </p>
+                    <P class="gia-item-cu">
+                        <span class="gia-cu">110.000đ</span>
+                    </P>
+
+                </div>
+            </div>
+        </div>
+        <div class="box-pro">
+            <div class="box-img">
+                <img src="~/Content/Img/AnNhienNhuNang.jpg" class="fm-img-pro" />
+            </div>
+            <div class="box-des">
+                <p>An Nhiên Như Nắng </p>
+                <div class="div-gia-item">
+                    <p class="gia-item">
+                        <sapn class="gia-moi">66.000đ</sapn>
+                        <span class="gia-giam">40%</span>
+                    </p>
+                    <P class="gia-item-cu">
+                        <span class="gia-cu">110.000đ</span>
+                    </P>
+
+                </div>
+            </div>
+        </div>
+        <div class="box-pro">
+            <div class="box-img">
+                <img src="~/Content/Img/BiAnLuanHoi.jpg" class="fm-img-pro" />
+            </div>
+            <div class="box-des">
+                <p>Bí Ẩn Luân Hồi </p>
+                <div class="div-gia-item">
+                    <p class="gia-item">
+                        <sapn class="gia-moi">66.000đ</sapn>
+                        <span class="gia-giam">40%</span>
+                    </p>
+                    <P class="gia-item-cu">
+                        <span class="gia-cu">110.000đ</span>
+                    </P>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bottom">
+    <div id="product_view_info" class="content product_view_content">
+        <div class="product_view_content-title">Thông tin sản phẩm</div>
+        <div class="product_view_tab_content_ad">
+            <div class="product_view_tab_content_additional">
+                <table class="data-table table-additional">
+                    <colgroup>
+                        <col width="25%">
+                        <col>
+                    </colgroup>
+                 
+                        <tbody>
+                            <tr>
+                                <th class="table-label">
+                                    Mã hàng
+                                </th>
+                                <td class="data_sku">
+                                    8935280910201
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="table-label">
+                                    Tên Nhà Cung Cấp
+                                </th>
+                                <td class="data_supplier">
+                                    <p>Thái Hà</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="table-label">
+                                    Tác giả
+                                </th>
+                                <td class="data_author">
+                                    Liễu Phàm
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="table-label">
+                                    Người Dịch
+                                </th>
+                                <td class="data_translator">
+                                    Trần Tuấn Mẫn
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="table-label">
+                                    NXB
+                                </th>
+                                <td class="data_publisher">
+                                    NXB Lao Động
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="table-label">
+                                    Năm XB
+                                </th>
+                                <td class="data_publish_year">
+                                    2022
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="table-label">
+                                    Ngôn Ngữ
+                                </th>
+                                <td class="data_languages">
+                                    Tiếng Việt
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="table-label">
+                                    Trọng lượng (gr)
+                                </th>
+                                <td class="data_weight">
+                                    200
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="table-label">
+                                    Kích Thước Bao Bì
+                                </th>
+                                <td class="data_size">
+                                    20.5 x 13 x 1 cm
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="table-label">
+                                    Số trang
+                                </th>
+                                <td class="data_qty_of_page">
+                                    142
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="table-label">
+                                    Hình thức
+                                </th>
+                                <td class="data_book_layout">
+                                    Bìa Mềm
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th style="vertical-align: middle;" class="table-label">Sản phẩm hiển thị trong</th>
+                                <td>
+                                    <ul class="fhs_product_link">
+                                        <li>
+                                            <p>Thái Hà</p>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th class="table-label">Sản phẩm bán chạy nhất</th>
+                                <td>
+                                    Top 100 sản phẩm Tôn Giáo bán chạy của tháng
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td colspan="2" style="padding: 0px;">
+                                    <div>Giá sản phẩm trên Fahasa.com đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như Phụ phí đóng gói, phí vận chuyển, phụ phí hàng cồng kềnh,...</div>
+                                    <div style="color: #C92127;">Chính sách khuyến mãi trên Fahasa.com không áp dụng cho Hệ thống Nhà sách Fahasa trên toàn quốc</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="clear"></div>
+                <div id="product_tabs_description_contents">
+                    <div id="desc_content" class="std">
+                        <p style="text-align: justify;"><strong>Liễu Phàm Tứ Huấn - Tích Tập Phúc Đức, Cải Tạo Vận Mênh (Tái Bản 2022)</strong></p>
+                        <p style="text-align: justify;">“Bốn bài giáo huấn của người xưa” là cuốn sách được lưu truyền rộng rãi trong dân gian Trung Quốc từ bao đời nay. Liễu Phàm tiên sinh là bậc học rộng, ngay từ nhỏ đã say mê nghiên cứu sách vở, sau đỗ đạt làm quan, thực hiện nhiều điều ích nước lợi dân, được nhiều người biết đến. Nhưng Liễu Phàm thực sự lưu danh không chỉ vì ông là vị quan cương trực, đuợc nhân dân yêu mến, có nhiều công lao với triều đình, mà hơn hết là vì ông đã dành nhiều tâm huyết cũng như chí hướng của đời mình để soạn ra bốn chương đoản văn, bấy giờ gọi là “Giới tử văn” (văn răn dạy con) để dạy con mình, sau đó được lưu hành rộng rãi trong đời, tức là sách “Bốn bài giáo huấn của người xưa” mà bạn đang có trong tay.</p>
+                        <p style="text-align: justify;">Đọc sách của người xưa, cảm nhận cái hay cái quí trong tư tưởng, từ đó thực hành theo sách, giúp chúng ta hành thiện lánh ác, phát huy đức khiêm tốn, biết hối cải lỗi lầm, từ đó có được cách lập thân đúng đắn là mong ước của chúng tôi muốn chuyển cho quí vị tấm lòng muốn làm việc thiện muốn giúp người, giúp đời ngày một tốt đẹp hơn đã thúc đẩy chúng tôi bỏ nhiều tâm lực để hoàn thành cuốn sách. Mong nhận được từ quí vị nhiều tri âm, tri kỷ qua cuốn sách nhỏ này.</p>
+                        <p style="text-align: justify;">“ Bốn bài dạy của Liễu Phàm” vốn là bốn chương đoản văn của Cư sĩ Liễu Phàm đời Minh, có tên là Giới tử văn (văn dạy con ), sau được lưu truyền trong dân gian hơn 5 thế kỷ qua với tựa đề là Liễu Phàm tứ huấn. Ông đã lấy cuộc đời ông, một con người thông đạt đủ các môn khoa học đã học hành, làm quan và đặt biệt là một tấm gương đạo đức, trí tuệ và hiền thiện để khuyên dạy con nhưng chủ yếu là khuyên dạy người đời. Đây là một tác phẩm lấy giáo lý Phật Giáo làm căn bản để triển khai việc tu thân, sống đạo đức và hành thiện giúp đời.</p>
+                        <p style="text-align: justify;"><em>Mục lục:</em></p>
+                        <p style="text-align: justify;">BÀI THỨ NHẤT: HỌC CÁCH LẬP MẠNG</p>
+                        <p style="text-align: justify;">BÀI THỨ HAI: PHƯƠNG PHÁP HỐI CẢI LỖI LẦM</p>
+                        <p style="text-align: justify;">BÀI THỨ BA: TÍCH TẬP VIỆC THIỆN</p>
+                        <p style="text-align: justify;">BÀI THỨ TƯ: HIỆU QUẢ CỦA ĐỨC KHIÊM TỐN</p>
+                        <p style="text-align: justify;"><em>Giới thiệu về tác giả:</em></p>
+                        <p style="text-align: justify;"><strong>Liễu Phàm</strong>: họ Viên, hiệu Liễu Phàm, tên Huỳnh, tự Khôn Nghị. Người Giang Nam sông Ngô, đời Minh. Sinh năm 1535, mất năm 1609, hưởng 74 tuổi. Sống tại quê vợ ở tỉnh Triết Giang, huyện Gia Thiện. Lúc 16 tuổi đậu Tú tài, 33 tuổi đậu Cử nhân và 52 tuổi đậu Tiến sĩ. Ông viết lại 4 bài để dạy con của ông là Thiên Khải, sau này cũng đậu tiến sĩ.</p>
+                        <p style="text-align: justify;">Dịch giả Cư sĩ Trần Tuấn Mẫn, nhà nghiên cứu và giảng dạy Phật học. Hiện anh là ủy viên thường trực Trung ương Giáo hội Phật giáo Việt Nam; Phó trưởng ban truyền thông Trung ương Giáo hội Phật giáo Việt Nam; Phó trưởng ban văn hóa Trung ương Giáo hội Phật giáo Việt Nam; Phó Tổng biên tập Thường trực kiêm Thư ký tòa soạn bán nguyệt san Văn hóa Phật giáo. Là một người con của xứ Huế, nơi mà “chất Phật” đã thấm vào hầu hết mọi tâm hồn. Cuộc đời của anh gắn liền với việc nghiên cứu và giáo dục Phật giáo. Anh có một đời sống cần mẫn, kiên trì trong việc dịch thuật, sáng tác và trao truyền kiến thức Phật giáo cho thế hệ sau anh, trong đó có nhiều vị tu sĩ. Tuy nhiên, tính khiêm cung, lòng cung kính và sự gần gũi của chư Tăng của anh thể hiện rõ qua những câu chuyện và cách xưng hô.</p>		    <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="clear"></div>
+        <div id="desc_viewmore" class="desc_viewmore" style="display: block;">
+            <div class="fhs_center_center" style="padding: 15px 0 8px 0;">
+                <a id="btn_showmore" class="fhs_btn_default mobile_link">Xem Thêm<span class="icon_seemore_blue mobile_only down" style="margin-left:4px;"></span></a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    @RenderBody()
+</div>
+</body>
+</html>

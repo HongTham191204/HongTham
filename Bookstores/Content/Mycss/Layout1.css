@@ -1,0 +1,249 @@
+﻿body {
+    margin:0px;
+}
+/*Phần đầu*/
+#div-adv {
+    background-color: #E89AC2;
+    margin: 0;
+}
+.top-right
+{
+    display:flex;
+    flex-direction:column
+}
+.thong-tin {
+    display: flex;
+    flex-direction: row;
+}
+.diliver-time
+{
+    padding-left:20px;
+}
+.tensach {
+    width =100%
+}
+.top-banner-block {
+    text-align: center;
+    background-color: #E89AC2;
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0;
+}
+#div-top {
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    list-style-type: none;
+    display:inline-flex;
+    padding-left:120px;
+    padding-right:120px;
+    
+}
+
+.fm-menu {
+    list-style-type: none;
+    display:inline-flex;
+    padding:15px;
+}
+
+
+.fm-menu-img {
+    width: 30px;
+    height: 30px;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.fm-tk {
+    list-style-type: none;
+    display: inline-flex;
+    padding-bottom: 5px;
+}
+.fhs_top_languages > div:first-of-type {
+    padding: 8px;
+    cursor: pointer;
+    user-select: none;
+    height: 40px;
+    border: 1px solid #CDCFD0;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+.icon_seemore_gray {
+    background: url(/skin/frontend/ma_vanese/fahasa/images/icon_seemore_gray.svg) no-repeat center center;
+  
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+/*details*/
+.top-left {
+    width: 40%;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.top-left-left {
+    width: 20%;
+    padding-left: 20px;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.top-left-left img {
+        width: 100%;
+}
+
+.top-left-right {
+    width: 80%;
+}
+
+.top-left-right img{
+        width: 100%;
+}
+
+.product_view_content {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.box-pro {
+    width: 200px;
+    height: 350px;
+}
+
+.box-pro-img {
+    width: 100px;
+    height: 170px;
+    padding: 20px;
+}
+
+.fm-box-pro-img {
+    max-height: 392px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.product-view-sa-one {
+    float: left;
+}
+
+.product-view-sa-two {
+    float: right;
+}
+.price{
+    float:left;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-pro {
+    width: 231px;
+    height: 340px;
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    padding-left: 10px;
+}
+
+box-pro:hover {
+    box-shadow: 5px 5px 30px black;
+}
+
+.box-img {
+    width: 220px;
+    height: 210px;
+}
+
+.fm-img-pro {
+    width: 220px;
+    height: 210px;
+}
+
+.box-des {
+    width: 220px;
+    height: 110px;
+    background-color: white;
+}
+
+.div-gia-item {
+    font-family: "Poppins", sans-serif;
+    height: 6rem;
+    position: relative;
+    margin-top: 4px;
+    width: auto;
+    min-width: 160px;
+}
+
+.gia-item {
+    display: flex;
+    font-size: 10px;
+}
+
+.gia-moi {
+    line-height: 1.65rem;
+    font-size: 1rem !important;
+    color: #C92127;
+    font-weight: 500;
+}
+
+.gia-giam {
+    margin-left: 8px;
+    padding: 3px 4px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #C92127;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-align: right;
+}
+
+.gia-cu {
+    padding: 0;
+    font-size: 10px;
+    text-decoration: line-through;
+    transform: translate3d(0px, 0px, 0px);
+}
+.rating:not(:checked) > input {
+    position: absolute;
+    appearance: none;
+}
+
+.rating:not(:checked) > label {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    color: #666;
+}
+
+    .rating:not(:checked) > label:before {
+        content: '★';
+    }
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #e58e09;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: #ff9e0b;
+}
+
+.rating > input:checked ~ label {
+    color: #ffa723;
+}
+.rating
+{
+    float:left;
+}
